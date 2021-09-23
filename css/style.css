@@ -1,0 +1,12 @@
+.nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: Helvetica, Arial, sans-serif;
+        height: 8vh;
+      }
+      
+main {
+        background: url("../midia/background.png") no-repeat center center;
+        background-size: cover;
+      }
