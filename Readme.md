@@ -5,3 +5,5 @@ Seja bem vindo ao projeto HERA.
 
 29/09/2021 - Adiciamos fonte externa, e estamos procurando como adicionar mais de uma fonte. - ok
 • Criação do main e da time line (não finalizado)
+
+30/09/2021 - Mudança do main
