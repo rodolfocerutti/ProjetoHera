@@ -49,47 +49,24 @@ body{
   font-family: 'caviar bold';
 }
 
-.imagemDireita{
-  display: inline-block;
-  width:300px;
+.container{
+  display: flex;
   margin-top: 50px;
-  margin-left: 250px;
-  vertical-align:top;;
 }
 
-.textoSabonete{
-  display: inline-block;
-  width: 500px;
-  margin:50px;
-  vertical-align:top;
+.imagens{
+  margin-left: 150px;
 }
 
-.imagemEsquerda{
-  display: inline-block;
-  width:300px;
-  margin-top: 50px;
-  margin-left: 50px;
-  vertical-align:top;;
+.textoDireito{
+  margin-left: 20px;
 }
 
-.textoShampoos{
-  display: inline-block;
-  width: 500px;
-  margin-top:20px;
-  margin-left: 250px;
-  vertical-align: top;
+.textoEsquerdo{
   text-align: right;
+  margin-right: 20px;
 }
 
-.btn{
-  background-color: #BDD684;
-  border-radius: 100px;
-  color: white;
-  transition: all 0.3s ease 0s;
-  font-family: 'caviar';
-}
-
-.btn:hover{
-  background-color: #E2F0D6;
-  text-decoration: none;
+.fundo{
+  background-color: tomato;
 }

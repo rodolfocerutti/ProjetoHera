@@ -7,3 +7,5 @@ Seja bem vindo ao projeto HERA.
 • Criação do main e da time line (não finalizado)
 
 30/09/2021 - Mudança do main
+
+04/10/2021 - Melhorias do main
