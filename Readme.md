@@ -9,3 +9,8 @@ Seja bem vindo ao projeto HERA.
 30/09/2021 - Mudança do main
 
 04/10/2021 - Melhorias do main
+
+05/10/2021 
+•Acertamos o quem somos
+
+

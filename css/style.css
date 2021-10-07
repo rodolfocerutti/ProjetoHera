@@ -10,63 +10,37 @@
 }
 
 body{
-  background-image: url(../midia/background.png);
-  background-repeat: no-repeat;
-  background-color: #bdd6846c; 
+  background-color: #bdd68488;
 }
 
-.nav-link{
-  margin: 10px 50px;
-  font-size: 20px;
-  color: white;
-  transition: all 0.3s ease 0s;
+.nav > .nav-item{
+  margin-top: 5px;
+  margin-left: 50px;
   font-family: 'caviar';
 }
 
-.nav-link:hover{
-  background-color: #BDD684;
-  border-radius: 100px;
+.nav > .nav-item > .nav-link{
   color: white;
+  font-size: 15px;
 }
 
-.logo{
-  text-align: center;
-  margin-top: 50px;
+.fundo{
+  width: 100%;
 }
 
-.texto > .titulo-01{
-  text-align: center;
-  margin-top: 40px;
-  color: white;
-  font-family: 'caviar bold';
-}
-
-.texto > .titulo-02{
-  margin-top: 20px;
-  text-align: center;
-  margin-top: 20px;
-  color: white;
-  font-family: 'caviar bold';
-}
-
-.container{
-  display: flex;
-  margin-top: 50px;
-}
-
-.imagens{
-  margin-left: 150px;
+.container-fluid{
+  max-width: 49%;
+  display: inline-flex;
+  align-items: flex-start;
+  margin-left: 23%;
+  margin-top: 1%;
 }
 
 .textoDireito{
-  margin-left: 20px;
+  padding-left: 3%;
 }
 
 .textoEsquerdo{
   text-align: right;
-  margin-right: 20px;
-}
-
-.fundo{
-  background-color: tomato;
+  padding-right: 3%;
 }
