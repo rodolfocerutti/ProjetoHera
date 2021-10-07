@@ -9,8 +9,16 @@
   font-weight: 100px;
 }
 
-body{
+/* body{
   background-color: #bdd68488;
+} */
+
+.background1{
+  background-image: url("../midia/backgroundvetor2.svg");
+  background-repeat: no-repeat;
+  background-color: #bdd68485;
+  background-size: contain;
+  margin-top: 0;
 }
 
 .nav > .nav-item{
@@ -26,6 +34,7 @@ body{
 
 .fundo{
   width: 100%;
+  margin: 0;
 }
 
 .container-fluid{
@@ -43,4 +52,17 @@ body{
 .textoEsquerdo{
   text-align: right;
   padding-right: 3%;
+}
+
+.btn{
+  margin-bottom: 20px;
+}
+
+.textoSomos{
+  margin-left: 15px;
+  text-align: center;
+}
+
+.fundoSomos{
+  background-color: #589564;
 }
