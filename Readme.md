@@ -13,4 +13,6 @@ Seja bem vindo ao projeto HERA.
 05/10/2021 
 •Acertamos o quem somos
 
+11/10/2021
+•Concluimos o bruto da home, acertar detalhes depois
 

@@ -47,11 +47,20 @@
 
 .textoDireito{
   padding-left: 3%;
+  font-family: 'caviar bold';
+  color: #000000;
 }
 
 .textoEsquerdo{
   text-align: right;
   padding-right: 3%;
+  font-family: 'caviar bold';
+  color: #000000;
+}
+
+.titulo{
+  font-family: 'caviar bold';
+  color: #000000;
 }
 
 .btn{
@@ -61,8 +70,49 @@
 .textoSomos{
   margin-left: 15px;
   text-align: center;
+  color: white;
+  font-family: 'caviar';
+}
+
+.tituloSomos{
+  font-family: 'caviar bold';
 }
 
 .fundoSomos{
-  background-color: #589564;
+  background-color: #589564c5;
+}
+
+.fundoContato{
+  background-color: #bdd68485;
+}
+.formulario{
+  text-align: center;
+  margin: auto;
+}
+
+.botao{
+  margin-top: 10px;
+  font-family: 'caviar';
+}
+
+.tituloContato{
+  font-family: 'caviar bold';
+}
+
+.textoContato{
+  font-family: 'caviar bold';
+}
+
+.fundoRodape{
+  background-color: #589564c5;
+}
+
+.linkfooter{
+  margin-top: 20px;
+  list-style: none;
+}
+
+a{
+  color: white;
+  text-decoration: none;
 }
