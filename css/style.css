@@ -9,16 +9,16 @@
   font-weight: 100px;
 }
 
-/* body{
-  background-color: #bdd68488;
-} */
-
 .background1{
   background-image: url("../midia/backgroundvetor2.svg");
   background-repeat: no-repeat;
   background-color: #bdd68485;
   background-size: contain;
   margin-top: 0;
+}
+
+.fundoNav{
+  background-color: #589564c5;
 }
 
 .nav > .nav-item{
@@ -30,6 +30,12 @@
 .nav > .nav-item > .nav-link{
   color: white;
   font-size: 15px;
+  transition: all 0.3s ease 0s;
+}
+
+.nav > .nav-item > .nav-link:hover{
+  background-color: #bdd68485;
+  border-radius: 100px;
 }
 
 .fundo{
@@ -65,6 +71,20 @@
 
 .btn{
   margin-bottom: 20px;
+  background-color: #589564c5;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+
+.btn:hover{
+  background-color: #bdd68485;
+  color: white;
+  text-decoration: none;
+}
+
+.btn:focus{
+  background-color: #bdd68485;
+  text-decoration: none;
 }
 
 .textoSomos{
@@ -115,4 +135,9 @@
 a{
   color: white;
   text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+
+a:hover{
+  color: #bdd68485;
 }
