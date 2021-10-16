@@ -141,3 +141,20 @@ a{
 a:hover{
   color: #bdd68485;
 }
+
+/* Aqui é o CSS da segunda página (PRODUTOS) */
+
+.container{
+  display: inline-flex;
+  background-color: #589564c5;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.container > .navbar-brand{
+  padding: 10px 0 10px 10px;
+}
+
+.container > .nav{
+  padding-top: 10px;
+}

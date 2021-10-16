@@ -1,0 +1,53 @@
+@font-face{
+    font-family: 'caviar';
+    src: url(../fonts/CaviarDreams.ttf) format('truetype');
+  }
+  
+  @font-face{
+    font-family: 'caviar bold';
+    src: url(../fonts/Caviar_Dreams_Bold.ttf) format('truetype');
+    font-weight: 100px;
+  }
+
+.container-fluid{
+    display: inline-flex;
+    max-height: 100%;
+    max-width: 100%;
+  }
+  
+  .container-fluid > .navbar-brand{
+    padding: 10px 0 10px 10px;
+  }
+  
+  .container-fluid > .nav{
+    padding-top: 10px;
+  }
+
+  .navbar-light{
+    background-color: #589564c5;
+  }
+
+  .nav > .nav-item{
+    margin-top: 15px;
+    margin-left: 50px;
+    font-family: 'caviar';
+  }
+  
+  .nav > .nav-item > .nav-link{
+    color: white;
+    font-size: 15px;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .nav > .nav-item > .nav-link:hover{
+    background-color: #bdd68485;
+    border-radius: 100px;
+  }
+
+ .fundo{
+   background-color: #bdd68485;
+ }
+
+ .card-bg{
+   background-color: none;
+ }
