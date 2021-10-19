@@ -1,0 +1,78 @@
+@font-face{
+    font-family: 'caviar';
+    src: url(../fonts/CaviarDreams.ttf) format('truetype');
+  }
+  
+  @font-face{
+    font-family: 'caviar bold';
+    src: url(../fonts/Caviar_Dreams_Bold.ttf) format('truetype');
+    font-weight: 100px;
+}
+
+.container-fluid{
+    display: inline-flex;
+    max-width: 60%;
+    font-family: 'caviar bold';
+    color: black;
+}
+  
+.container-fluid > .navbar-brand{
+    padding: 10px 0 10px 10px;
+}
+  
+.container-fluid > .nav{
+    padding-top: 10px;
+}
+
+.navbar-light{
+    background-color: #589564;
+}
+
+.nav > .nav-item{
+    margin-top: 15px;
+    margin-left: 50px;
+    font-family: 'caviar';
+}
+  
+.nav > .nav-item > .nav-link{
+    color: white;
+    font-size: 15px;
+    transition: all 0.3s ease 0s;
+}
+  
+.nav > .nav-item > .nav-link:hover{
+    background-color: #bdd68485;
+    border-radius: 100px;
+}
+
+.fundoContato{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.form-group{
+    text-align: left;
+}
+
+.btn{
+    margin-top: 30px;
+    margin-bottom: 391px;
+}
+
+.botao{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    border-color: black;
+    
+}
+
+body{
+    background-color: #bdd68485;
+}
+
+footer{
+    color: white;
+}

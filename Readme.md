@@ -16,3 +16,4 @@ Seja bem vindo ao projeto HERA.
 11/10/2021
 •Concluimos o bruto da home, acertar detalhes depois
 
+19/10/2021 - Concluimos o projeto Hera!

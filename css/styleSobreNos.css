@@ -1,0 +1,75 @@
+@font-face{
+    font-family: 'caviar';
+    src: url(../fonts/CaviarDreams.ttf) format('truetype');
+  }
+  
+  @font-face{
+    font-family: 'caviar bold';
+    src: url(../fonts/Caviar_Dreams_Bold.ttf) format('truetype');
+    font-weight: 100px;
+}
+
+.container-fluid{
+    max-width: 50%;
+    font-family: 'caviar bold';
+    color: black;
+    align-items: center;
+}
+  
+.container-fluid > .navbar-brand{
+    padding: 10px 0 10px 10px;
+}
+  
+.container-fluid > .nav{
+    padding-top: 10px;
+}
+
+.navbar-light{
+    background-color: #589564;
+}
+
+.nav > .nav-item{
+    margin-top: 15px;
+    margin-left: 50px;
+    font-family: 'caviar';
+}
+  
+.nav > .nav-item > .nav-link{
+    color: white;
+    font-size: 15px;
+    transition: all 0.3s ease 0s;
+}
+  
+.nav > .nav-item > .nav-link:hover{
+    background-color: #bdd68485;
+    border-radius: 100px;
+}
+
+.tituloNos{
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.imagens{
+    display: flex;
+    padding-left: 30px;
+}
+
+body{
+    background-color: #bdd68485;
+}
+
+.container{
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    background-color: #589564;
+    max-width: 100%;
+    max-height: 100%;
+    color: white;
+}
+
+.textoNos{
+    padding-bottom: 30px;
+}
